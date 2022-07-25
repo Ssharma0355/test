@@ -1,0 +1,27 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.left img{
+    width: 80px;
+    height: 80px;
+}
+header{
+    box-shadow: rgba(0,0,0,0.35) 0px 0px 15px;
+}
+.container{
+    padding: 0 10vw ;
+    /* max-width: 80vw; */
+   /* background-color: red; */
+   margin: auto;
+}
+nav ul li{
+    display :flex ;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+    /* align-items: center; */
+}
+.section1{
+    background-color: #c8afaf;
+}

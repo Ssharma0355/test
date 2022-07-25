@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAMEANIMATION</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* border:2px solid blue; */
+            /* border:2px solid red; */ animation-name:container;
+            animation-duration:2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+        @keyframes container{
+            0%{
+margin: 0px;
+            }100%{
+margin:120px;
+background-color: blanchedalmond;
+
+            }
+        }
+        .box1{
+            /* border:2px solid rgb(100, 33, 33); */
+        }
+        .box{display:flex;
+            
+            /* border:2px solid rgb(0, 0, 0); */
+        }
+        .first{ background-color: rgb(250, 166, 166);
+            width:195px;
+            border:2px solid salmon;
+            height:33px;
+            animation-name:first;
+            animation-duration:2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+        @keyframes first{
+            from{width:0px;
+                height:0px;
+                /* background-color: black; */
+            }
+            to{
+                width:195px;
+                height:33px;
+                background-color: red;
+            }
+        }
+        .second{
+            width: 37px;
+    height: 121px;
+            /* border:2px solid blue; */
+            background-color: rgb(250, 166, 166);
+            animation-name:prince;
+            animation-duration:2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+        @keyframes prince{
+            from{width:0px;
+                height:0px;
+                width:56px;
+    /* background-color: black; */
+            }
+            to{
+                width:37px;
+                height:121px;
+                background-color: red;
+            }
+        }
+        .third{
+            width: 196px;
+              height: 38px;
+              /* background-color: rgb(250, 166, 166); */
+            /* border:2px solid rgb(151, 151, 153);  */
+            animation-name:third;
+            animation-duration:2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        } @keyframes third{
+            from{width:0px;
+                height:0px;
+                /* background-color: black; */
+            }
+            to{
+                width:196px;
+                height:38px; background-color: red;
+            }
+        }
+        .fourth{ 
+            width: 35px;
+    height: 121px;
+    background-color: rgb(250, 166, 166);
+    margin-left: 161px;
+    animation-name:fourth;
+            animation-duration:2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+        @keyframes fourth{
+            from{width:0px;
+                height:0px; 
+                /* background-color: black; */
+            }
+            to{
+                width:35px;
+                height:121px; background-color: red;
+            }
+        }.fifth{ 
+            background-color: rgb(250, 166, 166);
+            width: 195px;
+    /* border: 2px solid salmon; */
+    height: 37px;
+    animation-name:fifth;
+            animation-duration:2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+        @keyframes fifth{
+            from{width:0px;
+                height:0px; 
+                
+            }
+            to{
+                width:195px;
+                height:37px; background-color: red;
+            }}
+
+        .six{
+            
+width:29px;
+height:366px;
+/* background-color: blueviolet; */
+/* border:2px solid red; */
+animation-name:six;
+            animation-duration:2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+        @keyframes six{
+            from{width:0px;
+                height:0px;
+            }
+            to{
+                width:29px;
+                height:366px;
+                background-color: blueviolet;
+            }
+        }
+        .seven{
+            margin-top:157px ;
+            width:137px;
+            height:36px;
+            /* border:2px solid red;
+            background-color: blueviolet; */
+            animation-name:seven;
+            animation-duration:2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+        @keyframes seven{
+            from{width:0px;
+                height:0px;
+            }
+            to{
+                width:137px;
+                height:36px;background-color: blueviolet;
+            }
+        }
+        .eight{
+            width:29px;
+height:366px;
+/* border:2px solid red; */
+animation-name:eight;
+/* background-color: blueviolet; */
+            animation-duration:2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+        @keyframes eight{
+            from{width:0px;
+                height:0px;
+            }
+            to{
+                width:29px;
+                height:366px;background-color: blueviolet;
+            }
+        }
+        .box2{display: flex;}
+        .nine{
+           width: 37px;
+    height: 383px;
+    /* border:2px solid rgb(14, 14, 17); */
+   
+/* background-color: rgb(250, 236, 36); */
+animation-name:nin;
+            animation-duration:2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+        @keyframes nin{
+            0%{
+width:0px;
+height:0px;
+            }
+            100%{
+                width:37px;
+height:383px;background-color: rgb(250, 236, 36);
+            }
+        }
+        .ten{
+            width: 161px;
+    height: 34px;
+            /* border:2px solid seagreen; */
+            animation-name:ten;
+
+            animation-duration:2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+
+        }
+        @keyframes ten{
+            0%{
+                width:0px;
+                height:0px;
+            }
+            100%{
+                width:161px;
+                height:34px;background-color: rgb(250, 236, 36);
+            }
+        }
+        .eleven{
+            height: 167px;
+    width: 32px;
+           
+            animation-name:eleven;
+/* background-color: blueviolet; */
+            animation-duration:2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+        @keyframes eleven{
+        0%{
+            width:0px;
+            height:30px;
+        }
+        
+         100%{
+            width:32px;
+            height:172px;background-color: rgb(250, 236, 36);
+        }
+
+        }
+       .twelve{
+        width: 197px;
+    height: 32px;
+    margin: 171px 0px 0px -193px;
+    /* border: 2px solid yellow; */
+    animation-name:twelve;
+/* background-color: blueviolet; */
+            animation-duration:2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+        @keyframes twelve{
+            0%{
+width:0px;
+height:0px;
+            }100%{
+width:193px;
+height:32px;
+background-color: yellow;
+            }
+        }
+       
+.thirteen{
+    width:56px;
+    height:56px;
+    /* border:2px solid yellow; */
+    animation-name:thirteen;
+            animation-duration:2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+
+
+}
+@keyframes thirteen{
+    form{
+margin:0;
+    }
+    to{
+        margin: 203px 0px 0px -193px;
+        background-color:rgb(255, 255, 0);
+    }
+}
+.fourteen{
+width:56px;
+    height:56px;
+    /* border:2px solid blue; */
+    animation-name:fourteen;
+            animation-duration:2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+}
+@keyframes fourteen{
+    form{
+margin:0px;
+    }
+    to{
+        margin: 0px 0px 0px -142px; 
+        background-color:rgb(255, 255, 0);
+    }
+}
+    .fifteen{
+        width:56px;
+    height:56px;
+    /* border:2px solid blue; */
+    animation-name:fifteen;
+            animation-duration:2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+    }  
+    @keyframes fifteen{
+    form{
+margin:0px;
+    }
+    to{
+        margin: 0px 0px 0px -84px; 
+        background-color:rgb(255, 255, 0);
+    }
+}.box3{
+    display:flex;
+}
+    .seventeen{
+/* border:2px solid red; */
+width:32px;
+height:365px;
+background-color: aqua;
+    }
+    .eighteen{
+        /* border:2px solid red; */
+width:132px;
+/*  */
+height:35px;
+animation-name:eighteen;
+animation-duration:2s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in;
+    }
+    @keyframes eighteen{
+        0%{
+margin: 0px;
+        }
+        100%{background-color: aqua;
+margin-top:330px;
+
+        }
+    }
+    .nineteen{
+background-color: aqua;
+width:32px;
+height:365px;}
+.box4{
+    display:block;
+}
+.twenty{
+    /* border:2px solid red; */
+    width:305px;
+    height:32px;
+    animation: twenty 2s linear  infinite ;}
+    @keyframes twenty{
+    0%{
+        background-color:white;
+    }
+    100%{
+        background-color: rgb(255, 45, 192);
+    }
+}
+.twenty1{
+    /* border: 2px solid darkgreen; */
+    width: 39px;
+    height: 316px;
+   
+    animation: twenty1 2s ease-in-out  infinite ;
+}
+@keyframes twenty1{
+    0%{
+        margin: 0px 0px 0px 0px;
+    }
+    100%{
+        margin: 0px 0px 0px 123px;
+        background-color: rgb(255, 45, 192);
+    }
+}
+.box5{
+display: block;
+}
+.twenty2
+{
+    
+width:142px;
+height:32px;
+animation: twenty2 2s ease-in-out  infinite ;
+}
+@keyframes twenty2{
+    0%{
+        background-color: white;
+    }
+    100%{
+        background-color: rgb(0, 255, 128);
+    }
+}
+.twenty3{
+    /* border: 2px solid blue; */
+    width: 36px;
+    height: 332px;  animation: twenty3 2s ease-in-out  infinite ;
+    /* margin: 0px 0px 0px 46px; */
+}
+@keyframes twenty3{
+    0%{
+        margin: 0px 0px 0px 105px;
+    }
+    100%{
+        margin: 0px 0px 0px 54px;
+        background-color: rgb(64, 228, 146);
+    }
+}
+.twenty4{
+    /* border:2px solid blue; */
+width:142px;
+height:32px;
+animation: twenty4 2s ease-in-out  infinite ;
+
+}@keyframes twenty4{
+    0%{
+       
+    }
+    100%{
+        
+        background-color: rgb(64, 228, 146);
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <div class="first"></div>
+    <div class="second"></div>
+    <div class="third"></div>
+    <div class="fourth"></div>
+    <div class="fifth"></div>
+        </div>
+    
+
+    <div class="box"> 
+        <div class="six"></div>
+    <div class="seven"></div>
+    <div class="eight"></div>
+   
+</div>
+    <div class="box2">
+        <div class="nine"></div>
+        <div class="ten"></div>
+        <div class="eleven"></div>
+        <div class="twelve"></div>
+      <div class="box22">
+            <div class="thirteen"></div>
+        <div class="fourteen"></div>
+        <div class="fifteen"></div>
+        <div class="sixteen"></div>
+    </div>
+        
+        </div>
+        <div class="box3">
+            <div class="seventeen"></div>
+            <div class="eighteen"></div>
+            <div class="nineteen"></div>
+
+        </div>
+        <div class="box4">
+            <div class="twenty"></div>
+            <div class="twenty1"></div>
+            
+        </div>
+        <div class="box5">
+            <div class="twenty2"></div>
+            <div class="twenty3"></div>
+            <div class="twenty4"></div>
+            
+        </div>
+        
+       
+</div>
+
+</body>
+</html>

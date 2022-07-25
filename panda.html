@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >  FoodPanda</title>
+
+
+<style>
+    body{
+        background-image: url("https://images.unsplash.com/photo-1603294142939-c42f3e14022d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80");
+
+        background-repeat: no-repeat;
+      background-size: cover;
+      height: 400px;
+      background-position:center ;
+    }
+    .title{
+        /* background-color: black; */
+        /* border: 2px solid red; */
+        /* color: white; */
+        display: flex;
+        position: sticky;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(213 178 178);
+        /* border-radius: 20%; */
+        /* background-image: url("https://media.istockphoto.com/photos/assorted-indian-recipes-food-various-picture-id922783734?k=20&m=922783734&s=612x612&w=0&h=_oV4oOrb8kC4RVgAI6RrGfQ8lIKsnP89lwwjHfhxUzQ="); */
+    }
+    .panda{
+        
+        width: 89px;
+        height: 89px;
+
+    }
+.navbar:hover{
+    cursor: pointer;
+    font-size: 25px;
+    
+
+}
+.search{
+    /* border: 2px solid red; */
+    /* position: relative; */
+    /* top: 210px;
+    left: 349px; */
+   height: 23px;
+   width: 315px;
+   /* border-radius: 26%; */
+}
+.searchimg{
+    height: 25px;
+    width: 67px;
+    cursor: pointer;
+
+}
+.Reddy{
+    /* border:2px solid red ; */
+    display: flex;
+    height:50px ;
+    position: absolute;
+    top:133px ;
+    left :400px;
+   
+}
+.button{
+    height: 30px;
+    width: 77px;
+}
+.backgroundimg{
+    /* background-image: url("https://media.istockphoto.com/photos/assorted-indian-recipes-food-various-picture-id922783734?k=20&m=922783734&s=612x612&w=0&h=_oV4oOrb8kC4RVgAI6RrGfQ8lIKsnP89lwwjHfhxUzQ="); */
+}
+.link{
+    /* border:2px solid  red; */
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    bottom: 0px;
+    left:0px;
+    height: 36px;
+    width: 1370px;
+    background-color: rgb(221, 173, 173);
+}
+.instaimg{
+    /* position: absolute; */
+    /* bottom: 0px; */
+    height: 31px;
+    width: 39px;
+}
+.a{
+    color:bLACK;
+  text-decoration: none;
+}
+.sidebar{
+    /* border: 2px solid red; */
+    display: inline-block;
+    background-color: rgb(221, 173, 173);
+    position: absolute;
+    top: 127px;
+}
+.navbar1:hover{
+    cursor: pointer;
+    /* font-size: 5px; */
+    text-decoration: underline;
+
+
+}
+.order1{
+    position:absolute;
+    left: 1000px;
+
+}
+.img2{
+    height: 52px;
+        width: 60px;
+        margin: 0px 59px;
+      
+    }
+    .order1{
+     
+        position: absolute;
+        top: 200px;
+    }
+    .ordernow{
+        background-color: rgb(221, 173, 173);
+        border-radius: 14px;
+        text-align: center;
+      
+    }
+.input{
+    /* text-align: center; */
+}
+.b1{
+    text-align: center;
+    width: 178px;
+}
+</style>
+</head>
+<body>
+    <div class="backgroundimg">
+    <div class="title">
+        
+    <h1>Food Panda </h1><h3 class="navbar">Home </h3><h3 class="navbar">About us</h3><h3 class="navbar">Contact us</h3><h3 class="navbar"><a href="login.html" class="a">Signup</a></h3>
+    <img  class="panda "  src="https://image.flaticon.com/icons/png/512/48/48674.png" alt="Loding ">
+
+
+</div>
+<div class="link" >Follow us :- <a href="https://www.instagram.com/ll_sachin_sharma_ll/"><img class="instaimg" src="https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-3-512.png" alt=" Loding"></a></div>
+<div class="Reddy">
+    <input class="search" type="text" placeholder="Search Food & Resturant">
+    <button class="button" ><img class="searchimg" src="https://static.thenounproject.com/png/105498-200.png"alt="Loding"> </button>
+   
+
+
+</div>
+</div>
+<div class="sidebar">
+    <h2 class="navbar1">Indian </h2><h2 class="navbar1">Continental </h2><h2 class="navbar1">Chinese</h2><h2 class="navbar1">Italian </h2><h2 class="navbar1">Mexican </h2><h2 class="navbar1">Japanese</h2><h2 class="navbar1"> French</h2><h2 class="navbar1">Turkish</h2><h2 class="navbar1">Thai</h2>
+
+
+</div>
+<div class="order1"> 
+<form class="order2">
+    <!-- <h2> <br><a href="web.html"><img class="img2" src="https://toppng.com/uploads/preview/book-now-animated-gif-11550256094qkb4hpj9ct.png" alt=""></a></h2> -->
+    <h2 class="ordernow">Order Now</h2>
+            <input  class="input" type="text" placeholder="Name"><br>
+            <br>
+            <!-- <input type="text" placeholder="Email-Id"><br>
+            <br> -->
+            <input  class="input" type="number" placeholder="Phone No."><br>
+            <br>
+            <!-- <input type="password" placeholder="Password"><br>
+            <br> -->
+            <!-- <input type="password" placeholder="Re-Enter Password"><br>
+            <br> -->
+            <input  class="input" type="text"placeholder="Enter address"><br>
+            <br>
+            <input   class="input" type="text"placeholder="House Number"><br>
+            <br>
+            <button class="b1"  >Place Order </button>
+            <br>
+</form>
+
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>

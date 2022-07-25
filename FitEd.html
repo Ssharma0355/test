@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitEd</title>
+<style>
+    body{
+        margin: 0 ;
+        padding: 0;
+    }
+.navbar{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+    font-family: cursive;
+    height: 60px;
+
+}
+.section{
+    /* border: 2px solid red; */
+    background-color: black;
+    color: white;
+    /* display: flex; */
+
+}
+.nav1{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: cursive;
+    height: 100px;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0px;
+}
+.button0{
+border: 2px solid yellow;
+
+
+
+}
+.freetrail{
+    background-color: black;
+    color: yellow; 
+    height: 35px;
+}
+.joinnow{
+    background-color: yellow;
+    color: black; 
+    height: 35px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 570px;
+    border: 2px solid rgb(0, 0, 0);
+ background-image: url("https://images.unsplash.com/photo-1434608519344-49d77a699e1d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGZpdG5lc3MlMjBnaXJsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+background-repeat: no-repeat;
+background-size: 1366px 571px;
+background-position: center;
+animation-name: gymgirl;
+animation-duration: 30s;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+animation-fill-mode: forwards;
+animation-timing-function:ease-in-out;
+animation-play-state: running;
+transition: 1s;
+
+
+}
+@keyframes gymgirl{
+    0%{
+background-image: url("https://images.unsplash.com/photo-1532384748853-8f54a8f476e2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fGZpdG5lc3MlMjBnaXJsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+
+    }
+    20%{
+        background-image: url("https://images.unsplash.com/photo-1548690312-e3b507d8c110?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fGZpdG5lc3MlMjBnaXJsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    }
+    40%{
+        background-image: url("https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fGZpdG5lc3MlMjBnaXJsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    }
+    60%{
+        background-image: url("https://images.unsplash.com/photo-1514525263139-f7c8f10ae61d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTB8fGZpdG5lc3MlMjBnaXJsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    }
+    80%{
+        background-image: url("https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTl8fGZpdG5lc3MlMjBnaXJsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+    }
+    100%{
+        background-image: url("https://images.unsplash.com/photo-1584380931214-dbb5b72e7fd0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzl8fGZpdG5lc3MlMjBnaXJsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    }
+}
+.about{
+    /* border: 2px solid red; */
+    margin-top: 0px;
+    width: 365px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:25px;
+    
+}
+.course{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color:yellow;
+}
+.offered{
+    font-family: ;
+    color: white;
+}
+.section1{
+    height:600px;
+width:100%;
+/* border: 2px solid red; */
+
+}.section2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 23px;
+
+   /* border: 2px solid red; */
+}
+.box{
+    text-align: center;
+    border:2px solid black;
+    width:329px;
+    height:79px;
+}
+.box1{ text-align: center;
+    /* border:2px solid black; */
+    background-color: black;
+    width:255px;
+    height:320px;
+}
+.img1{
+    height: 283px;
+    width: 255px;
+}
+.viewmore{
+    font-size: 17px;
+    background-color: rgb(243, 245, 116);
+}
+
+</style>
+
+</head>
+<body>
+    <div class="navbar">
+        <b>(+91) 9113704388 </b>
+        <b>Turba Hostel</b>
+        <b>ssharma0355@gmail.com</b>
+         </div>
+         <div class="nav1">
+            <!-- <div class="getstarted"> -->
+<select class="section">
+<option value="1">Our Gyms</option>
+   <option value="2">Coming Soon</option> 
+    <option value="3">Pre-Sales</option> 
+    <option value="4">Amazing Offers</option>
+   <option value="5"> Buy Membership now</option>
+   <option value="6"> Advertise with us</option>
+    <option value="7">Calendar 2021</option>
+
+</select>
+<div class="FT"><a href="#">Fitness Institute - GGFI</a> </div>
+
+ <div class="FT"><a href="#">Gallery</a> </div>
+
+ <div class="FT"><a href="#">Programs</a></div>
+
+ <div class="FT"><a href="#">Franchise</a></div>
+
+ <div class="FT"><a href="#">Blogs</a> </div>
+
+<div class="FT"><a href="#">Contact</a></div> 
+
+<div class="button0"><button class="freetrail">Free Trail </button></div>
+<div class="button0"> <button class="joinnow">Join Now</button> </div>
+
+
+           
+             
+
+
+
+         </div>
+         <div class="img">
+
+        <div class="about">
+            <h2 class="course">COURSE</h2><h2 class="offered">OFFEREDs</h2>
+        </div>
+
+         </div>
+         <div class="section1">
+<div class="section2">
+    <div class="box"> 
+        <b>weight mangement course</b>
+        <div class="button">
+        <button class="viewmore">View More</button>
+    </div>
+</div>
+
+    <div class="box"> 
+        <b>GGFI Online Fast Track Course</b>
+        <div class="button">
+        <button class="viewmore">View More</button>
+    </div>
+</div>
+
+<div class="box1"> 
+    <img class="img1"src="https://images.unsplash.com/photo-1539794830467-1f1755804d13?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGd5bSUyMGdpcmx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+    
+    <div class="button">
+    <button class="viewmore">View More</button>
+</div>
+</div>
+    
+</div>
+</div>
+    
+   
+</div>
+</div>
+
+         
+
+</body>
+</html>

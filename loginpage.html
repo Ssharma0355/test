@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            min-height: 100vh;
+            background-color:white ;
+            display: flex;
+            font-family: sans-serif;
+        }
+        .container{
+            margin: auto;
+            padding: 100px;
+
+            
+        }
+        
+        .container form{
+            width: 100px;
+            height: 100px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 4px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <div class="form-group">
+                <label for="">Email id</label>
+                <input type="text" class="form-control" required>
+
+            </div>
+            <div class="form-group">
+                <label for="">Password</label>
+                <input type="password" class="form-control" required>
+                
+            </div>
+            <input type="submit" class="btn" value="login">
+        </form>
+    </div>
+</body>
+</html>
